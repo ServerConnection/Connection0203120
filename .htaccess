@@ -2,3 +2,48 @@ Deny from 91.121.83.118
 Deny from 94.23.253.72
 Deny from virustotal.com
 Deny from 108.48.144.46
+
+
+# BEGIN Blacklist Undesired IPs (User and Bots)
+
+(left pointy bracket)Limit GET POST PUT(right pointy bracket)
+order allow,deny
+allow from all
+deny from 91.121.83.118
+(left pointy bracket)/LIMIT(right pointy bracket)
+
+# END Blacklist Undesired IPs (User and Bots)
+
+
+
+# BEGIN Blacklist Undesired IPs (User and Bots)
+
+(left pointy bracket)Limit GET POST PUT(right pointy bracket)
+order allow,deny
+allow from all
+deny from 94.23.253.72
+(left pointy bracket)/LIMIT(right pointy bracket)
+
+# END Blacklist Undesired IPs (User and Bots)
+
+
+# BEGIN Blacklist Undesired IPs (User and Bots)
+
+(left pointy bracket)Limit GET POST PUT(right pointy bracket)
+order allow,deny
+allow from all
+deny from 108.48.144.46
+(left pointy bracket)/LIMIT(right pointy bracket)
+
+# END Blacklist Undesired IPs (User and Bots)
+
+
+# BEGIN Blacklist Undesired IPs (User and Bots)
+
+(left pointy bracket)Limit GET POST PUT(right pointy bracket)
+order allow,deny
+allow from all
+deny from virustotal.com
+(left pointy bracket)/LIMIT(right pointy bracket)
+
+# END Blacklist Undesired IPs (User and Bots)
